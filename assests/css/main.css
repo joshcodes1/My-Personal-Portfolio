@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&family=Inter:wght@500&family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
+
+
+
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+/* beginning of nav-bar */
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h3{
+    font-size:30px;
+    font-family: 'Inter';
+    text-transform: capitalize;
+    width: 30px;
+    color: #f77a36;
+    line-height: 15px;
+}
+.logo span{
+    color: #530DC8;
+}
+.nav-bar{
+    height: 10vh;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+}
+.nav-links ul{
+    display: flex;
+    list-style: none;
+}
+.nav-links ul li{
+    margin: 0 20px;
+    text-transform: capitalize;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #000000;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    font-family: 'Inter';
+    color: #000000;
+}
+#contact-btn a{
+    color: white;
+    padding:10px 20px;
+    font-weight: 700;
+    font-size: 17px;
+    margin: 15px 0 20px 0;
+    text-transform: capitalize;
+    height: 35px;
+    border: none;
+    background: #f77a36;
+    border-radius: 16px;
+}
+#contact-btn{
+    position: relative;
+    bottom: 15px;
+}
+#contact-arrow{
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+/* end of nav-bar */
+
+
+/* beginning of home */
+.home-page{
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+    width: 100%;
+}
+.home-intro-text{
+    width: 100%;
+    padding: 80px 0;
+}
+.home-intro-text h1{
+    color: #530DC8;
+    font-family: 'Roboto' ;
+    font-size: 60px;
+}
+.home-intro-text h2{
+    color: #3b3b3b;
+    width: 350px;
+    font-size: 22px;
+    font-weight: 200;
+    font-family: 'Montserrat';
+}
+.home-intro-text button{
+    border-radius: 16px;
+    color: white;
+    background: #f77a36;
+    padding: 5px 12px;
+    justify-content: space-between;
+    width: 120px;
+    padding: 10px;
+    width: 150px;
+    display: flex;
+    font-weight: 700;
+    font-size: 17px;
+    margin: 50px 0 20px 0;
+    text-transform: capitalize;
+    height: 40px;
+    border: none;
+} 
+.home-intro-text button img{
+    position: relative;
+    bottom: 5px;
+    left:25px ;
+}
+.home-intro-text button #polygon{
+    position: relative;
+    left: 45px;
+    top: 1px;
+    width: 20px;
+    height: 20px;
+}
+.home-dev-img{
+    width: 100%;
+}
+.home-dev-img img{
+    height: 350px;
+    width: 100%;
+}
+/* end of home */
+
+
+/* beginning  of aboutme */
+    .about-us{
+        padding: 0 30px;
+        width: 100%;
+        display:flex;
+        justify-content: space-between;
+    }
+    .about-us-img{
+        width: 100%;
+    }
+    .about-us-img{
+        width: 100%;
+    }
+    .about-us-img h1{
+        font-family: 'Inter';
+        color: #530DC8;
+        margin: 20px 0 0 0;
+    }
+    .about-us-img img{
+        width: 100%;
+        height: 350px;
+    }
+    .about-us-text{
+        width: 100%; 
+    }
+    .about-us-text h3{
+        padding: 120px 0 0 0;
+        font-size: 20px;
+        font-weight: 200;
+        font-family: 'Inter';
+        line-height: 28px;
+    }
+/* end of about me */
+
+/* beginning of skills */
+.main-skills{
+    width: 100%;
+    margin-right: auto;
+    padding: 10px 0;
+    text-align: center;
+    /* background-color: #f38630; */
+}
+.main-skills h1{
+    font-family: 'Inter';
+    color: #530DC8;
+    padding: 0 0 0 10px;
+    text-align: left;
+    margin: 20px 0 0 0;
+}
+.main-skills:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.skill h2{
+    font-family: 'Inter';
+    color: #530DC8;
+}
+.skill img{
+    height: 129px;
+    width: 129px;
+    object-fit: cover;
+}
+.skill{
+    padding: 10px;
+    float: left;
+    border: 2px dotted #530DC8;
+    width: 31.3%;
+    margin-left: 1.5%;
+    margin-top:15px ;
+    border-radius: 10px;
+}
+.skill h2{
+    font-family: 'Inter';
+
+}
+.skill progress{
+    accent-color: #f38630;
+}
+/* end of skills */
+
+/* beginning of projects */
+.main-project{
+    /* background-color: #212020; */
+    padding: 10px 0;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+.main-project h1{
+    font-family: 'Inter';
+    text-align: left;
+    color: #530DC8;
+    padding: 0 0 0 10px;
+    margin: 20px 0 0 0;
+}
+.main-project:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.project img{
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
+.project{
+    padding: 10px;
+    float: left;
+    border: 2px dotted #530DC8;
+    /* background-color: #f38630; */
+    width: 31.3%;
+    margin-left: 1.5%;
+    margin-top:15px ;
+    margin-bottom:15px ;
+    border-radius: 10px;
+}
+.project button{
+    background-color: #f38630;
+    border-radius: 25px;
+    height: 30px;
+    width: 50%;
+    border: none;
+}
+.project button a{
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Inter Tight';
+    font-weight: 100;
+}
+.project h2{
+    margin: 10px 0;
+    font-family: 'Montserrat';
+    color: #530DC8;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.project p{
+    color: #f77a36;
+    margin: 10px 0;
+    font-family: 'Inter Tight';
+    font-weight: 300;
+    font-size: 17px;
+}
+/* end of projects */
+
+
+/* begining of contacts */
+
+        
+/* end of contacts  */
