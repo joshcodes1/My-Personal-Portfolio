@@ -2,7 +2,6 @@
 
 
 
-
  *{
     padding: 0;
     margin: 0;
@@ -40,18 +39,18 @@
     list-style: none;
 }
 .nav-links ul li{
-    margin: 0 20px;
+    margin: 0 15px;
     text-transform: capitalize;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    color: #000000;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 19px;
+    color: #f38630;
 }
+
 .nav-links ul li a{
     text-decoration: none;
     font-family: 'Inter';
-    color: #000000;
+    color: #530DC8;
 }
 #contact-btn a{
     color: white;
@@ -135,7 +134,9 @@
 }
 .home-dev-img img{
     height: 350px;
+    border: 5px dashed #f38630;
     width: 100%;
+    border-radius: 50%;
 }
 /* end of home */
 
@@ -288,6 +289,62 @@
     font-size: 17px;
 }
 /* end of projects */
+
+
+/* beginning of testionial*/
+.testimonial{
+    padding: 0 20px;
+    width: 100%;
+
+}
+.testimonials{
+    display: flex;
+    justify-content: space-between
+}
+.testimonial h1{
+    font-family: 'Inter';
+    text-align: left;
+    color: #530DC8;
+    padding: 0 0 0 10px;
+    margin: 20px 0 0 0;
+}
+.our-testionial{
+    background: #530DC8;
+    width: 100%;
+    margin: 10px 20px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 250px;
+}
+.our-testionial img{
+    width: 70px;
+    margin: 5px 0 10px 0;
+
+    height: 70px;
+    border-radius: 50%;
+}
+.our-testionial p{
+    font-family: 'Inter';
+    color: #fff;
+}
+.our-testionial p span{
+    font-size: 17px;
+    font-family: 'Roboto';
+    color: #f38630;
+    font-weight: 500;
+
+}
+.our-testionial h3{
+    font-family: 'Roboto';
+    font-size: 17px;
+    margin: 10px 0;
+    font-weight: 100;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+    color: #fff;
+
+}
+/* end of testimonial */
 
 
 /* begining of contacts */
